@@ -1,0 +1,15 @@
+MAX7219
+
+The logic analyser was a (cheap clone of) Salaea Logic
+
+The probes were connected
+
+  0 = MISO (not used by this chip)
+  1 = CS
+  2 = MOSI
+  3 = CLK
+
+The capture was generated using pulse-view
+
+The chip was driven by an FTDI FT232H connected to USB, using a custom perl
+program to drive the signals, including the intentional error cases.
